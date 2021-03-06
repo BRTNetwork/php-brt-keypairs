@@ -1,17 +1,12 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/6/2021
- * Time: 1:52 AM
- */
 
-namespace Lessmore92\RippleKeypairs;
+namespace BRTNetwork\BRTKeypairs;
 
 use Exception;
-use Lessmore92\Buffer\Buffer;
-use Lessmore92\RippleAddressCodec\RippleAddressCodec;
+use BRTNetwork\Buffer\Buffer;
+use BRTNetwork\BRTAddressCodec\BRTAddressCodec;
 
-class RippleKeyPairs
+class BRTKeyPairs
 {
     private $addressCodec;
     /**
@@ -21,7 +16,7 @@ class RippleKeyPairs
 
     public function __construct()
     {
-        $this->addressCodec = new RippleAddressCodec();
+        $this->addressCodec = new BRTAddressCodec();
         $this->secp256k1    = new Secp256k1();
     }
 

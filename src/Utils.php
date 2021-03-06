@@ -1,13 +1,8 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/7/2021
- * Time: 12:58 PM
- */
 
-namespace Lessmore92\RippleKeypairs;
+namespace BRTNetwork\BRTKeypairs;
 
-use Lessmore92\Buffer\Buffer;
+use BRTNetwork\Buffer\Buffer;
 
 class Utils
 {

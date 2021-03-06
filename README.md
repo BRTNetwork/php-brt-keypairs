@@ -1,2 +1,3 @@
-# php-ripple-keypairs
-Generate and use keypairs and addresses for the XRP Ledger using elliptic (PHP)
+# php-brt-keypairs
+
+Generate and use keypairs and addresses for the BRT Ledger using elliptic (PHP)
