@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8800fb2dde0fff3b23043fec670d0100",
+    "content-hash": "aa082951c54181422e4fc61e98c101a4",
     "packages": [
         {
             "name": "brtnetwork/base-x",
@@ -63,6 +63,57 @@
             "time": "2021-03-06T13:20:32+00:00"
         },
         {
+            "name": "brtnetwork/brt-address-codec",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BRTNetwork/php-brt-address-codec.git",
+                "reference": "107d54522466c1fa7b9731a85f4155e9a1218b40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BRTNetwork/php-brt-address-codec/zipball/107d54522466c1fa7b9731a85f4155e9a1218b40",
+                "reference": "107d54522466c1fa7b9731a85f4155e9a1218b40",
+                "shasum": ""
+            },
+            "require": {
+                "brtnetwork/base-x": "v1.0.0",
+                "brtnetwork/buffer": "v1.0.0",
+                "php": ">7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BRTNetwork\\BRTAddressCodec\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BRT Network",
+                    "email": "contact@brt.network"
+                }
+            ],
+            "description": "Library for encoding and decoding BRT Ledger addresses and seeds.",
+            "keywords": [
+                "brt",
+                "brt-address",
+                "brt-ledger",
+                "brt-x-address",
+                "decoding",
+                "encoding",
+                "x-address",
+                "xaddress"
+            ],
+            "support": {
+                "source": "https://github.com/BRTNetwork/php-brt-address-codec/tree/1.0.0"
+            },
+            "time": "2021-03-06T13:30:43+00:00"
+        },
+        {
             "name": "brtnetwork/buffer",
             "version": "1.0.0",
             "source": {
@@ -107,57 +158,6 @@
                 "source": "https://github.com/BRTNetwork/php-buffer/tree/1.0.0"
             },
             "time": "2021-03-06T13:18:35+00:00"
-        },
-        {
-            "name": "brtnetwork/php-brt-address-codec",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/BRTNetwork/php-brt-address-codec.git",
-                "reference": "ffc638ae89d1958139a31defdf3c654ba07ed8b7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/BRTNetwork/php-brt-address-codec/zipball/ffc638ae89d1958139a31defdf3c654ba07ed8b7",
-                "reference": "ffc638ae89d1958139a31defdf3c654ba07ed8b7",
-                "shasum": ""
-            },
-            "require": {
-                "brtnetwork/base-x": "v1.0.0",
-                "brtnetwork/buffer": "v1.0.0",
-                "php": ">7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "BRTNetwork\\BRTAddressCodec\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "BRT Network",
-                    "email": "contact@brt.network"
-                }
-            ],
-            "description": "Library for encoding and decoding BRT Ledger addresses and seeds.",
-            "keywords": [
-                "brt",
-                "brt-address",
-                "brt-ledger",
-                "brt-x-address",
-                "decoding",
-                "encoding",
-                "x-address",
-                "xaddress"
-            ],
-            "support": {
-                "source": "https://github.com/BRTNetwork/php-brt-address-codec/tree/1.0.0"
-            },
-            "time": "2021-03-06T13:22:57+00:00"
         },
         {
             "name": "simplito/bigint-wrapper-php",
